@@ -1,5 +1,9 @@
+#!/bin/bash
+
 a = 20
 b = 10
 
 x = a+b
-echo x + 1
+y = a-b
+echo x
+echo y
