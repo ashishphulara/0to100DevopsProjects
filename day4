@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Updating package lists..."
+
+sudo apt update
+
+
+echo "installing apache server"
+
+sudo apt install -y apache2
+
+echo "satrting apache server"
+
+sudo systemctl start apache2
+
+echo "apache server installation complete"
+
+
